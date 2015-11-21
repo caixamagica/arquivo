@@ -123,3 +123,61 @@ Construção da ontologia
 Conceito de Mimosa: http://rede.metareciclagem.org/assunto/mimoSa
 Trabalho a tarde no hotel
 
+Discussão no terraço: conversa sobre o conceito, caixa mágica não é um aparato e sim um manual de um processo de como implementar redes locais de participação cidadã mediada por tics no hardware que a comunidade estiver. Manual e processo, sendo o hardware o fruto de uma das formas de implantar o processo. Vara e peixe. O legal de ter hardware é que ele permite a aplicação imediata. 
+
+19/11/2015 – Visita do Thales Santos – Comunidade ou Favela – validação/desvalidação – como lidar com realidades desconhecidas¿ mais seguro fazer experiência para nós mesmos¿ 
+http://www.ustream.tv/channel/marielz
+
+O que inovação cidadã e desenvolvimento local tem a ver com diversidade cultural¿
+
+Discussão: O que queremos¿
+Aproximar a população do governo¿
+Garntir fluxo livre de informação e comunicação¿
+Promover a inclusão digital para a participação social¿
+Permitir participação em plataformas digitais para populações de áreas sem acesso à internet¿
+Promover educação popular sobre participação¿
+Oferecer um hardware com softwares para deliberações coletivas¿
+
+Dia D para priorizarmos
+Qual o nosso problema, por onde  começar¿ Qual nosso mínimo produto viável¿
+O caixa mágica pode ser incluído para tudo, e vamos priorizar.
+
+Votação
+Canvas como modelo de negócio
+Reunião  com mentores (Cintia, Vitor Grilo, Yago)
+
+Domingo chegará Caio (SSA) – API do Noosfero
+Para que serve a caixa¿
+
+MVP – aproximação da população do governo embarcando o Dialoga.
+Público como pessoas cheio de energia querendo mudar e melhorar o país mas que acabam batendo a cabeça tentando, desde brigando com os vizinhos por problemas de ação coletiva micros até brigando com o governo por não saber como colaborar.
+
+Um MVP mais específico para ser V em 10 dias.
+
+Possibilidade de aproximar das políticas ao invés de aproximar das pessoas, uma vez que governo já é próximo das pessoas, porém pessoas não são próximas das políticas.
+
+Seria um repositório de informações¿ Um ponto de acesso entre comunidade e governabilidade¿ Uma ferramenta interna de uma comunidade¿ 
+
+Qual o objetivo¿ Garantir fluxo livre e autônomo de comunicação e/ou informação¿ Servidor, rede livre. Fluxo ou acervo ou os dois¿ Ou processamento de informações inseridas na caixa¿
+
+INFORMAR	 => ACERVO
+INFORMAR
+ACERVO
+ENVOLVER
+FLUXO
+DESENVOLVER EMPATIA
+
+
+Deliberação com o protótipo
+
+Priorizações de soluções para problemas detectados. Classificação de 1 (menos importante) a 4 (mais importante).
+	
+Conversa com Sinergia
+
+Priorização determinada, resultado:
+
+
+
+
+MVP: Mecanismos que gera informação ordenada, estandardizada, capaz de sistematizar um processo participativo de uma comunidade.
+
