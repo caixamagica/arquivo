@@ -66,6 +66,7 @@ Discussão sobre o conceito de Participação Cidadã
 
 
 Criação dos usuários no GITHUB  
+
 Tarefas para o próximo dia:  
 a) apresentar sugestões de ferramentas de trabalho;   
 b) trocar exemplos de ferramentas de participação;   
@@ -73,8 +74,39 @@ c) continuar a pensar o conceito de participação;
 d) identificar os projetos existentes na América Latina;   
 e) conhecer o Github e criar os usuários.  
 
+17/11/2015 – Segundo dia de discussão
+
+![Segundo dia de discussao](../master/images/img3.jpg?raw=true)
+
+Norma explica os níveis de participação:  
+I. Informar  
+II. Consultar  
+III. Decidir em conjunto  
+IV. Atuar em conjunto  
+V. Apoiar e empoderar  
+
+![Segundo dia de discussao](../master/images/img4.jpg?raw=true)
+![Segundo dia de discussao](../master/images/img5.jpg?raw=true)
 
 
+Questionamentos a serem respondidos:   
+a) Porque a caixa mágica é necessária¿;  
+b) O que a integração pode promover¿;  
+c) Dá para fazer essa mágica em todo o governo¿;   
+d) Rola essa mesma mágica entre plataformas do governo e sociedade¿;   
+e) Cultura de Participação e Cultura Política  
+
+18/11/2015 – Discussão terceiro dia
+
+![Terceiro dia de discussao](../master/images/img6.jpg?raw=true)
+
+Nuvem de ideias
+
+Como enxergamos a caixa mágica¿ Fisicamente e conceituamente  
+Caixa Mágica – inovar no processo social, mais do que na tecnologia  
+Brecha Digital – habilidade e infraestrutura  
+Um algo (‘ferramenta’) para facilitar um processo  
+Filosoficamente  
 
 
 
