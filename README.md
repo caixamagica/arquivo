@@ -108,5 +108,18 @@ Brecha Digital – habilidade e infraestrutura
 Um algo (‘ferramenta’) para facilitar um processo  
 Filosoficamente  
 
+![nuvem de ideias](../master/images/img7.jpg?raw=true)
+![questao fundamental](../master/images/img8.jpg?raw=true)
 
+Abra a Caixa Mágica se for capaz: uma caixa mágica que você olha pelo buraco e ela te coloca uma desafio. A caixa tem que provocar, estimular, inclusive fisicamente. Tem que ter contato com ela, pegar na mão, sentir.
+https://www.youtube.com/watch?v=wPkThmgWv84
+
+Visita do Luis Felipe Coimbra – RioHackerSpace
+Construção da ontologia 
+
+![Construção da ontologia](../master/images/img9.jpg?raw=true)
+![Construção da ontologia](../master/images/img10.jpg?raw=true)
+
+Conceito de Mimosa: http://rede.metareciclagem.org/assunto/mimoSa
+Trabalho a tarde no hotel
 
