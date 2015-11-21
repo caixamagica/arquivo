@@ -49,23 +49,30 @@ Na etapa do projeto dentro do contexto do Labic a caixa da participação social
 
 ##Registro do processo
 
-18/10/2015 – Criação do grupo Caixa Mágica no Facebook
-20/10/2015 – Criação do grupo Caixa Mágica no Whatassapp
-29/10/2015 – Primeiro hangout 
-04/11/2015 – Segundo Hangout e criação do Pad da Caixa Mágica
-10/11/2015 – Terceiro Hangout e compartilhamento da ficha do projeto 
-15/11/2015 – Início LabICBr e recepção
+18/10/2015 – Criação do grupo Caixa Mágica no Facebook  
+20/10/2015 – Criação do grupo Caixa Mágica no Whatassapp  
+29/10/2015 – Primeiro hangout   
+04/11/2015 – Segundo Hangout e criação do Pad da Caixa Mágica  
+10/11/2015 – Terceiro Hangout e compartilhamento da ficha do projeto   
+15/11/2015 – Início LabICBr e recepção  
 
 16/11/2015 – Primeiro dia de discussão
 
+![Primeiro dia de discussao](../master/images/img1.jpg?raw=true)
 
 Discussão sobre o conceito de Participação Cidadã
 
+![Primeiro dia de discussao](../master/images/img2.jpg?raw=true)
 
 
+Criação dos usuários no GITHUB  
+Tarefas para o próximo dia:  
+a) apresentar sugestões de ferramentas de trabalho;   
+b) trocar exemplos de ferramentas de participação;   
+c) continuar a pensar o conceito de participação;   
+d) identificar os projetos existentes na América Latina;   
+e) conhecer o Github e criar os usuários.  
 
-Criação dos usuários no GITHUB
-Tarefas para o próximo dia: a) apresentar sugestões de ferramentas de trabalho; b) trocar exemplos de ferramentas de participação; c) continuar a pensar o conceito de participação; d) identificar os projetos existentes na América Latina; e) conhecer o Github e criar os usuários.
 
 
 
