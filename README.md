@@ -187,7 +187,7 @@ Conversa com Sinergia
 
 Priorização determinada, resultado:
 
-![resultado da priorização de soluções](../master/images/img16.jpg?raw=true)
+![resultado da priorização de soluções](../master/images/img16.png?raw=true)
 
 ![mvp definido](../master/images/img17.jpg?raw=true)
 
