@@ -251,6 +251,23 @@ Premissa: ou querer colaborar ou querer ter ideia. Instigar pessoa para perceber
 Outro ponto de confluência: instrumento muito básico e rápido para pessoas que não participam é incentivar a plataforma. A caixa mágica pode pensar gente que tem interesse de participar, de despertar algo.
 
 
+Tarefas distribuidas
+
+![Tarefas distribuidas](../master/images/img22.jpg?raw=true)
+
+
+Telas do queijatório -MVP
+
+![Telas do queijatório -MVP](../master/images/img23.jpg?raw=true)
+
+
+Reunião na casa nuvem
+
+![Reunião na casa nuvem](../master/images/img24.jpg?raw=true)
+
+
+
+
 Exemplos de eParticipação  
 http://www.mejoratuciudad.org/participacion-ciudadana-smart-city.html  
 http://www.100en1diacali.com/  
