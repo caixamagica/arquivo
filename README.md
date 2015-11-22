@@ -203,11 +203,11 @@ Mariel e Thomaz reunindo material para relatórios.
 Renato fazendo ontologia e programação  
 Figura com a conceitualização, feita anteriormente  
 
-![ontologia](../master/images/img19.jpg?raw=true)
+![ontologia](../master/images/img19.png?raw=true)
 
 Metadados sobre a ontologia
 
-![ontologia2](../master/images/img20.jpg?raw=true)
+![ontologia2](../master/images/img20.png?raw=true)
 
 Todos os scripts, figuras, RDF, DOT estão disponíveis em https://github.com/ttm/caixamagica
 
