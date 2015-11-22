@@ -123,6 +123,9 @@ Construção da ontologia
 Conceito de Mimosa: http://rede.metareciclagem.org/assunto/mimoSa
 Trabalho a tarde no hotel
 
+![Trabalho a tarde no hotel](../master/images/img11.jpg?raw=true)
+
+
 Discussão no terraço: conversa sobre o conceito, caixa mágica não é um aparato e sim um manual de um processo de como implementar redes locais de participação cidadã mediada por tics no hardware que a comunidade estiver. Manual e processo, sendo o hardware o fruto de uma das formas de implantar o processo. Vara e peixe. O legal de ter hardware é que ele permite a aplicação imediata. 
 
 19/11/2015 – Visita do Thales Santos – Comunidade ou Favela – validação/desvalidação – como lidar com realidades desconhecidas¿ mais seguro fazer experiência para nós mesmos¿ 
@@ -130,29 +133,32 @@ http://www.ustream.tv/channel/marielz
 
 O que inovação cidadã e desenvolvimento local tem a ver com diversidade cultural¿
 
-Discussão: O que queremos¿
-Aproximar a população do governo¿
-Garntir fluxo livre de informação e comunicação¿
-Promover a inclusão digital para a participação social¿
-Permitir participação em plataformas digitais para populações de áreas sem acesso à internet¿
-Promover educação popular sobre participação¿
-Oferecer um hardware com softwares para deliberações coletivas¿
+Discussão: O que queremos¿  
+Aproximar a população do governo¿  
+Garntir fluxo livre de informação e comunicação¿  
+Promover a inclusão digital para a participação social¿  
+Permitir participação em plataformas digitais para populações de áreas sem acesso à internet¿  
+Promover educação popular sobre participação¿  
+Oferecer um hardware com softwares para deliberações coletivas¿  
 
-Dia D para priorizarmos
-Qual o nosso problema, por onde  começar¿ Qual nosso mínimo produto viável¿
-O caixa mágica pode ser incluído para tudo, e vamos priorizar.
+Dia D para priorizarmos  
+Qual o nosso problema, por onde  começar¿ Qual nosso mínimo produto viável¿  
+O caixa mágica pode ser incluído para tudo, e vamos priorizar.  
 
-Votação
-Canvas como modelo de negócio
-Reunião  com mentores (Cintia, Vitor Grilo, Yago)
+Votação  
+Canvas como modelo de negócio  
+Reunião  com mentores (Cintia, Vitor Grilo, Yago)  
 
-Domingo chegará Caio (SSA) – API do Noosfero
-Para que serve a caixa¿
+![Reunião  com mentores](../master/images/img12.jpg?raw=true)
 
-MVP – aproximação da população do governo embarcando o Dialoga.
+
+Domingo chegará Caio (SSA) – API do Noosfero  
+Para que serve a caixa¿  
+
+MVP – aproximação da população do governo embarcando o Dialoga.  
 Público como pessoas cheio de energia querendo mudar e melhorar o país mas que acabam batendo a cabeça tentando, desde brigando com os vizinhos por problemas de ação coletiva micros até brigando com o governo por não saber como colaborar.
 
-Um MVP mais específico para ser V em 10 dias.
+Um MVP mais específico para ser V em 10 dias.  
 
 Possibilidade de aproximar das políticas ao invés de aproximar das pessoas, uma vez que governo já é próximo das pessoas, porém pessoas não são próximas das políticas.
 
@@ -160,15 +166,20 @@ Seria um repositório de informações¿ Um ponto de acesso entre comunidade e g
 
 Qual o objetivo¿ Garantir fluxo livre e autônomo de comunicação e/ou informação¿ Servidor, rede livre. Fluxo ou acervo ou os dois¿ Ou processamento de informações inseridas na caixa¿
 
-INFORMAR	 => ACERVO
-INFORMAR
-ACERVO
-ENVOLVER
-FLUXO
+INFORMAR	     => ACERVO
+ENVOLVER             => FLUXO
 DESENVOLVER EMPATIA
 
 
+![Deliberação com o protótipo](../master/images/img13.jpg?raw=true)
+![Deliberação com o protótipo](../master/images/img14.jpg?raw=true)
+
+
 Deliberação com o protótipo
+
+
+![Priorizações de soluções](../master/images/img15.jpg?raw=true)
+
 
 Priorizações de soluções para problemas detectados. Classificação de 1 (menos importante) a 4 (mais importante).
 	
@@ -176,8 +187,74 @@ Conversa com Sinergia
 
 Priorização determinada, resultado:
 
+![resultado da priorização de soluções](../master/images/img16.jpg?raw=true)
 
-
+![mvp definido](../master/images/img17.jpg?raw=true)
 
 MVP: Mecanismos que gera informação ordenada, estandardizada, capaz de sistematizar um processo participativo de uma comunidade.
+
+20/11/2015 - Erick fazendo testes no RaspberryPI com monitor. Falta teclado.
+
+![erik com raspbery](../master/images/img18.jpg?raw=true)
+
+
+Ana e Carlos trabalhando design.  
+Mariel e Thomaz reunindo material para relatórios.  
+Renato fazendo ontologia e programação  
+Figura com a conceitualização, feita anteriormente  
+
+![ontologia](../master/images/img19.jpg?raw=true)
+
+Metadados sobre a ontologia
+
+![ontologia2](../master/images/img20.jpg?raw=true)
+
+Todos os scripts, figuras, RDF, DOT estão disponíveis em https://github.com/ttm/caixamagica
+
+Reunião ao final do dia:  
+Priorizamos algo como o MVP  
+Ferramentas que podemos ter: processos de nós mesmos para chegarmos às perguntas:	
+
+TEMAS >>>> PROBLEMAS >>> OBJETIVOS >> DELIBERAÇÃO (votação, priorização) > SOLUÇÃO  
+Ideia é tirar objetivos, fazendo três etapas. Normalmente os espaços de participação não trabalham com negativas, e sim com questões como ‘o que você gostaria¿’. Nunca como: o que não quer¿  
+
+Confecção do processo mínimo da Caixa:  
+
+![mvp visual](../master/images/img21.jpg?raw=true)
+
+
+
+Reunião com todas suas ideias  
+
+Debate depois de dias: criar uma metodologia de mobilização cidadã, tomando elementos de gamification. Pensaram nos ativistas, nos cidadãos empoderados, pensando numa metodologia que se pensa a criação de um manual e um banco de ferramentas disponíveis de ativismo e mobilização cidadã. 
+
+Mariel: tudo muito próximo, com a diferença do aparato, que é a caixa. 
+Ideia de todas suas ideias: Percurso de todo o projeto apoiado com um banco de ferramentas e um banco de voluntários. Plataforma que registra informação, tema que importa, e se colocar a disposição para outros projetos, com suas capacidades. Identificar os momentos do projeto, de idealização, convocatória comunitária, negociação, desenho do projeto, discussão. Que tal se pensarem um pouco na dinâmica do povo¿ Repositório e incorporando desafios/retos para passar de cada etapa e se chegar ao reconhecimento. Busca de pessoas e expansão da rede. Visibilizar gente que participou a partir das capacidades multimídias. Na caixa mágica tem um dispositivo que se chega a um território e se casa com todas sus ideias. 
+
+Erick: não é tão difícil fazer uma plataforma tipo rede social para primeiras etapas com números limitados de usuários, não é difícil e se pode fazer esse tipo de experimentação. 
+Em outro núcleo de todas suas ideias: quando cidadãos entra em contato, processo se torna mais lento. Projeto acaba se tornando algo, banco de conhecimento dar material, dar exemplos práticos para resolver problema. 
+Plataforma pode ajudar a eleição de recursos, permitindo que ideias ampliadas tenha essa possibilidade de receber informação, recursos. 
+
+Poppi: a questão da mobilização... concurso da ideia de Cidades Democráticas em Brasil estão inventando uma prototipação das ideias mais importantes. O principal desafio desses processos segue sendo a mobilização. Plataformas utilizáveis, logins fáceis, porém pessoas não se engajam. O que fazem para resolver isso são as oficinas presenciais. Pessoas na mesma sala se conectam a uma plataforma, discutindo com ideias de design thinking. Quanto essa história, a complementariedade que podemos pensar é essa: a forma como estão divulgando se precisa de uma plataforma online, para fazer a mobilização é necessário ter uma estratégia territorial. 
+
+A prioridade não é que se utilize a plataforma por toda a comunidade, pois isso não será feito por todas as pessoas, mesmo que se incentive. A plataforma é somente uma ferramenta, um depositório que agregue as informações e que seja útil. 
+
+Um dos objetivos é fornecer ferramentas para que outras pessoas consigam engajar outras pessoas. A ideia do jogo é ir te dando ferramentas para se fazer isso. 
+
+Uma discussão inicial é utilizar as experiências das próprias pessoas do labic para alimentar essas ferramentas de estratégia.
+
+Pensarem em públicos específicos¿
+
+Basicamente cidadãos proativos que se sentem capazes de propor algo e que tenha acesso à internet. 
+Premissa: ou querer colaborar ou querer ter ideia. Instigar pessoa para perceber que pode propor coisas para uma cidade. 
+
+Outro ponto de confluência: instrumento muito básico e rápido para pessoas que não participam é incentivar a plataforma. A caixa mágica pode pensar gente que tem interesse de participar, de despertar algo.
+
+
+Exemplos de eParticipação  
+http://www.mejoratuciudad.org/participacion-ciudadana-smart-city.html  
+http://www.100en1diacali.com/  
+http://dialoga.gov.br/  
+http://culturadigital.br/plataformascolaborativas/delibera-democracia-digital/  
+http://www.allourideas.org/  
 
