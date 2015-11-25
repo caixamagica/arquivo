@@ -1,277 +1,141 @@
+![logo caixa magica](../master/images/logocaja.jpg?raw=true)
+
+
 #Caixa Mágica de Participação Social Swartz Manifesto
 
 ##Palavras-Chave (original)
 
 participação social; inteligência coletiva; território; deliberação; integração; aplicativos para organização
 
-##Resumo do Projeto (original)
+##Introducción
 
-O estabelecimento de novas formas de comunicação e o aumento da interatividade humana, coloca em voga as discussões acerca da participação social em processos coletivos. Dentro do governo percebemos iniciativas como o Participa.br, o Dialoga Brasil, o Pensando o Direito e tantos outros que colocam a participação no centro da ação política coletiva. No entanto, apesar de louváveis, essas iniciativas acabam construindo macro processos de participação e tem certa dificuldade de diálogo com micro processos em territórios ou grupos sociais minoritários.
+Com “La Caja Mágica de la Participación Swartz Manifesto” vamos a hackear la participação ciudadana, facilitando la forma como as pessoas se organizam coletivamente. Nuestro idioma oficial é o portuñol.
 
-Por isso, a Caixa Mágica de Participação surge com o objetivo de aproximar as práticas de ação política cotidianas e territorializadas das macro discussões políticas, sugerindo os elos para narrativas pulverizadas, ao mesmo que também explicitando demandas e debates que poderiam estar restritos a pequenos grupos sociais e políticos.
-Além disso, o conjunto de ferramentas disponibilizadas pela Caixa apresenta-se como facilitador de processos de discussão e deliberação, sendo esta a principal motivação para o seu uso e apropriação por grupos sociais e políticos que agem coletivamente e participativamente.
+A Caixa Mágica e uma plataforma física y digital personalizable de hackeamento cívico, que contiene dos herramientas que simplifican el proceso de diagnóstico y deliberación dentro de un ejercicio participativo de toma de decisiones. 
 
-##Descrição do projeto (original)
+La Caja es una puerta de entrada al universo de la participación ciudadana pois permite que as pessoas se conectem diretamente a um processo de participação concreto e imediato. No nosso protótipo, ativamos uma opção de participação que permite transformar queixas em propostas, pero essa é apenas uma das possíveis formas de configurar a plataforma.
 
-Um produto para Governança Colaborativa e organização social nos territórios que traga um conjunto de tecnologias livres embarcadas num hardware, preferencialmente livre (estilo Raspberry PI). Vamos tratar essa caixa como uma plataforma aberta, onde todas as aplicações serão livres e sua integração documentada pelo projeto. Essas tecnologias permitirão que a caixa da participação social seja um hotspot provendo rede wifi e aplicações locais para democracia direta.
+Más que una máquina, a caixa, es um legado de processos de participación social e inclusión digital para o empoderamento de los ciudadanos.
 
-A caixa da participação será utilizada para facilitar discussões presenciais usando tecnologias digitais. Assim que for ligada, ela passa a emitir um sinal Wifi com um nome padrão que, ao ser conectado, encaminha o usuário para um "portal captivo" (outra possibilidade é ter um display na caixa que exibe um passo a passo). Esse portal tem uma capa que apresenta aplicações e outros conteúdos interessantes para o território onde a caixa está. Ela é facilmente plugada e utilizada em vários contextos locais. A página inicial será facilmente customizável conforme a necessidade de cada contexto e sua configuração poderá ser exportada e compartilhada.
+**Quer ler o relato dos dias do projeto no LabicBR?** [Aqui](../master/RELATO_diadia.md)
 
-Cada ponto de presença local do projeto (instância da caixa de participação) será um nó de uma rede maior permitindo o desenvolvimento de conteúdos e de uma comunidade local que de tempos em tempos sincroniza conteúdos (nos dois sentidos) com a rede de participação social mais ampla, formando uma rede de colaboração e participação social. Essa sincronização será feita preferencialmente utilizando e extendendo a ontologia da participação social, ontologia do participa e outras que o grupo julgar adequada conforme o desenvolvimento do projeto.
+##Problema
 
-A caixa da participação deverá acessar as APIs abertas de sistemas de participação social do governo e sociedade civil. O acesso a essas APIs permitirão a montagem do "dashboard" da participação, detectando e agregando oportunidades de participação nessas plataformas, o que fomentará a colaboração e a troca de conhecimento sobre tecnologias sociais de participação. Além disso, a caixa da participação acessa essas APIs abertas a partir de um entendimento de que o uso integrado dessas tecnologias possui uma identidade comum, que se conectam tanto no uso local no território, quanto na produção de ações coletivas multidimensionais em contextos nacionais e transnacionais.
+¿Cuántos de ustedes han usado Instagram? Antes de eso, cuántos de ustedes habían editado una foto para dar mayor luminosidad, mejorarla, o darle un efecto diferente. Ya sea en Photoshop o alguna otra plataforma de diseño?
 
-Dentro do escopo do laboratório de inovação cidadã, vamos conectar as APIs ativando um processo participativo conceitual a partir dessas diferentes tecnologias, ficando para etapas futuras a ativação de outras integrações possíveis.
+Nos dimos cuenta que grande parte da população não utiliza as plataformas de participação digitais que os governos oferecem, e também não se utilizam de mecanismos digitais que sistematizem, de forma ordenada e padronizada, diálogos e processos participativos de comunidades específicas.
 
-Serão consideradas para integração na caixa da participação as seguintes tecnologias:
-Tecnologias de integração contínua (DevOps) / Empacotamento com docker (testar o conceito)
-Hotspot wifi
-Login Cidadão
-Repositório Git (Gitlab para desenvolvimento e contribuições locais no código)
-Servidor de arquivo (samba)
-Etherpad
-Instancia do Participa.br
-Instancia do Delibera
-Instância XMPP
-Servidor de Actor
-Ushahidi
-Mapas Culturais
-Lista de emails (mailman)
-Dashboard da participação e transparência (agregação e link para instâncias de participação em atividade)
-Moodle
-Servidor de radio web
-Servidor de streaming de vídeo (a testar o conceito)
-Mucua Baobáxia (compartilhamento de fotos e vídeos entre os usuários conectados à caixa)
+Nosotros estamos concientes que já existem ferramentas capazes. Sin embargo, algunas veces estas requieren que el usuario tenga determinados recursos (tecnológicos/cognitivos/materiais). Lo que las vuelve complejas y poco accesibles para la mayoría que establecen de manera involuntaria barreras de entrada, que impossibilitam maior envolvimento de la mayoría.
 
-Dentro do escopo do laboratório, vamos ativar um conjunto inicial de aplicativos que permita a realização do processo participativo para testar o conceito, ao mesmo tempo que será um produto útil para utilização imediata. Para futuras etapas do projeto, poderemos ativar um conjunto maior de aplicativos, bem como aprimorar o processo de integração contínua que permitirá adicionar ou excluir aplicativos de forma simples, moldando aos diferentes contextos locais em que a caixa da participação será utilizada.
+##Población Objetivo 
 
-Na etapa do projeto dentro do contexto do Labic a caixa da participação social será um hardware sob um acabamento inspirador que materializará as possibilidades de participação e horizontalidade trazidas pela caixa. Numa segunda etapa do projeto é possível acoplá-la a um drone que responderá e se posicionará no ambiente onde a participação está ocorrendo, reagindo aos resultados da participação, simbolizando uma antena captadora de inteligência coletiva que emana de todos os participantes da discussão.
+La Caja Mágica se dirige a todas as pessoas que querem usar a tecnologia para facilitar decisões coletivas.
 
-##Registro do processo
+##Producto
 
-18/10/2015 – Criação do grupo Caixa Mágica no Facebook  
-20/10/2015 – Criação do grupo Caixa Mágica no Whatassapp  
-29/10/2015 – Primeiro hangout   
-04/11/2015 – Segundo Hangout e criação do Pad da Caixa Mágica  
-10/11/2015 – Terceiro Hangout e compartilhamento da ficha do projeto   
-15/11/2015 – Início LabICBr e recepção  
+###¿Qué es la caja?
+Plataforma física y digital personalizable de hackeamento cívico, que contiene 2  herramientas que simplifican el proceso de diagnóstico y deliberación dentro de un ejercicio participativo de toma de decisiones. 
 
-16/11/2015 – Primeiro dia de discussão
+Características software: Software libre (libre y de código abierto). Usa lenguaje de marcado HTML5, hojas de estilo en cascada (CCS3). Descripción de padrón para que más personas puedan construir herramientas software para que se sumen a la caja. 
+La caja física, es un objeto modular y armable que permite personalizar su exterior.  El interior de la caja contiene un hardware de bajo costo raspberry o cubeboard. 
 
-![Primeiro dia de discussao](../master/images/img1.jpg?raw=true)
+###¿Qué hace?
+Genera datos ordenados sobre procesos sociales de toma de decisiones. 
+Permiten facilitar procesos  servindo tanto como ferramenta para decisões dentro de pequenas comunidades quanto para reunir comunidades diversas em definições que afetam grandes territórios, como um país. A Caixa Mágica possibilita diferentes níveis participativos: informação, consultas, decisões conjuntas, atuações coletivas e empoderamento comunitário.
 
-Discussão sobre o conceito de Participação Cidadã
+###¿Cómo lo hace?
+Simplificando 2 procesos sociales de participación en toma de decisiones
+Diagnóstico - Una herramienta que permitirá generar datos que faciliten el diagnóstico a un tema definido. 
+Deliberación - Una herramienta que permitirá priorizar las opciones previamente diagnosticadas. 
 
-![Primeiro dia de discussao](../master/images/img2.jpg?raw=true)
+Para nuestra proyecto piloto cuyo objetivo es aproximar a la población sobre proceso de participación y generar datos sobre LABIC configuramos las herramientas de la siguiente forma:
 
+Quejódromo / Queixódromo (Diagnóstico) - Busca incentivar a las personas a que expresen sus necesidades de una forma sencilla. Mostrando a la población lo simple que puede ser expresar su opinión de manera digital. 
+Vota (Deliberación) -  Busca aproximar a la población sobre los que es un proceso de deliberación, votando los problemas diagnosticados en el Quejódromo. Así se quiere adentrar a la gente sobre proceso de evaluación de los pros y contras sobre una situación relevantes con objetivo de adoptar una decisión determinada.
+Soluciona (Diagnóstico) - Una herramienta que busca sensibilizar a la población sobre la importancia de la participación en el proceso de generación de soluciones colectivas a los problemas de una comunidad. 
 
-Criação dos usuários no GITHUB  
+##Prospectiva (mercado potencial)
+As possibilidades da caixa são diversas, com diferentes âmbitos e usos, ya que se desenvolver conforme seu próprio contexto cívico. Facilita la expresión de opiniões de una comunidade.
 
-Tarefas para o próximo dia:  
-a) apresentar sugestões de ferramentas de trabalho;   
-b) trocar exemplos de ferramentas de participação;   
-c) continuar a pensar o conceito de participação;   
-d) identificar os projetos existentes na América Latina;   
-e) conhecer o Github e criar os usuários.  
+La rápida penetración que tiene el internet magnifica las posibilidades de alcance de la caja. Tan sólo no Brasil, 54% dos domicílios situados na área urbana tem acesso à Internet. Y en el caso de América Latina, para el 2013, el 46.7% de la población ya era usuaria de internet. Toda esta población podría tener acceso inmediato a la caja, na sua versao plataforma digital. Además para aquel 52% que aún no tiene acceso a internet, el tótem le puede facilitar el acceso a la caja. 
 
-17/11/2015 – Segundo dia de discussão
+Sin embargo este acceso a internet no se ha traducido 48% de la población de Brasil utiliza Facebook, solamente 0,1% participou de Dialoga Brasil e aun menos (0,01%) se registrou na plataforma (Dados de visitantes do Dialoga Brasil, aprox 240 mil visitantes e 25 mil cadastros).
 
-![Segundo dia de discussao](../master/images/img3.jpg?raw=true)
+Por ejemplo, pode ser utilizado como una interface entre governo e sociedade, entre participação social presencial e digital. Una puerta de entrada y conexão com plataformas já existentes, de e-participação do próprio governo (por exemplo, Participa.br, Dialoga.br). La caja puede facilitar la comunicación entre macro processos de participação e micro processos em territórios ou grupos sociais minoritários que algunas veces tienen certa dificuldade de diálogo entre ellos. 
 
-Norma explica os níveis de participação:  
-I. Informar  
-II. Consultar  
-III. Decidir em conjunto  
-IV. Atuar em conjunto  
-V. Apoiar e empoderar  
+O podría ser para governo quanto para grupos comunitários já organizados ou não. La caja inclusible, podría potennciar la participación al facilitarla. Si se considera que de acuerdo a los datos de Latinobarómetro de 2013, em torno de 40% da população residente nos países da América Latina já participaram de algum tipo de ação social local para lidar com questões de sua própria comunidade nos três últimos anos, tais como contactar uma autoridade local, um funcionário do governo, um meio de comunicação ou algum grupo da sociedade civil organizada. Toda esta población podría utilizar la Caja Mágica para facilitar sus procesos participativos en su comunidad. Con esto se podría resolver la dificultad de registrar os resultados de uma assembleia com grande número de pessoas. O usar en pequenas comunidades ou em grupos coesos, onde todos se conhecem, algumas pessoas se sentem intimidades em votar algo que contradiga os interesses do grupo. 
 
-![Segundo dia de discussao](../master/images/img4.jpg?raw=true)
-![Segundo dia de discussao](../master/images/img5.jpg?raw=true)
+##Cierre
+Nosotros creemos que la consolidación de una comunidad participativa detona un proceso que refuerza el tejido social y el desarrollo de la misma. Por eso buscamos inovar el processo social mais do que a tecnologia.  Nuestro aporte es eso, modificar la forma en la que la gente se acerca a los procesos participación, facilitarles, hacerlos más accesibles. Nosotros queremos mejorar una comunidad a la vez. Estamos convencidos que con la participación de todos una mejor sociedad puede ser construida colectivamente.  Y queremos que la caja facilite eso.
+!Descubramos nuestra propia magia¡
 
 
-Questionamentos a serem respondidos:   
-a) Porque a caixa mágica é necessária¿;  
-b) O que a integração pode promover¿;  
-c) Dá para fazer essa mágica em todo o governo¿;   
-d) Rola essa mesma mágica entre plataformas do governo e sociedade¿;   
-e) Cultura de Participação e Cultura Política  
 
-18/11/2015 – Discussão terceiro dia
 
-![Terceiro dia de discussao](../master/images/img6.jpg?raw=true)
 
-Nuvem de ideias
+
+IDEAS SUELTAS
 
-Como enxergamos a caixa mágica¿ Fisicamente e conceituamente  
-Caixa Mágica – inovar no processo social, mais do que na tecnologia  
-Brecha Digital – habilidade e infraestrutura  
-Um algo (‘ferramenta’) para facilitar um processo  
-Filosoficamente  
+Indivíduos não sabem onde encontrar informações para participar de alguma experiência coletiva
+Como informar indivíduos interessados em buscar maiores conhecimentos sobre participação social?
 
-![nuvem de ideias](../master/images/img7.jpg?raw=true)
-![questao fundamental](../master/images/img8.jpg?raw=true)
+É difícil registrar os resultados de uma assembleia com grande número de pessoas
+Como facilitar o registro de resultados de decisões coletivas?
 
-Abra a Caixa Mágica se for capaz: uma caixa mágica que você olha pelo buraco e ela te coloca uma desafio. A caixa tem que provocar, estimular, inclusive fisicamente. Tem que ter contato com ela, pegar na mão, sentir.
-https://www.youtube.com/watch?v=wPkThmgWv84
+Ambientes de participação já existentes muitas vezes são dominados por grupos de interesses organizados que desconsideram os interesses coletivos
+Como empoderar vozes autônomas em ambientes preexistentes de participação social?
 
-Visita do Luis Felipe Coimbra – RioHackerSpace
-Construção da ontologia 
+Em pequenas comunidades ou em grupos coesos, onde todos se conhecem, algumas pessoas se sentem intimidades em votar algo que contradiga os interesses do grupo
+Como garantir que cada um vote de acordo com seu sincero interesse sem sofrer coerções sociais do grupo em que se insere? 
 
-![Construção da ontologia](../master/images/img9.jpg?raw=true)
-![Construção da ontologia](../master/images/img10.jpg?raw=true)
+Muita gente não participa dos processos participativos.
+Como ampliar a participação e a interação cidadã?
 
-Conceito de Mimosa: http://rede.metareciclagem.org/assunto/mimoSa
-Trabalho a tarde no hotel
 
-![Trabalho a tarde no hotel](../master/images/img11.jpg?raw=true)
+#NOTAS SOLTAS
 
+Uma caixa de ferrramentas acessível que gera informações ordenadas e padronizadas sobre os processos participativos de uma comunidade, com um desenho acessível e simplificado. 
+Software + hardware
+Memória histórica? (nuvem / servidor)
+Dispositivo / interface
+
 
-Discussão no terraço: conversa sobre o conceito, caixa mágica não é um aparato e sim um manual de um processo de como implementar redes locais de participação cidadã mediada por tics no hardware que a comunidade estiver. Manual e processo, sendo o hardware o fruto de uma das formas de implantar o processo. Vara e peixe. O legal de ter hardware é que ele permite a aplicação imediata. 
+Datos sobre el problema: 
+No Brasil, 54% dos domicílios situados na área urbana tem acesso à Internet, nos domicílios situados na área rural esse percentual cai para 22%. Também há diferenças regionais significativas: enquanto no Sudeste 60% dos domicílios têm acesso à Internet, no Norte, apenas 35%. Maior ainda são as diferenças sócioeconômicas: enquanto 98% dos domícilios da classe A tem acesso à Internet, apenas 14% dos domícilios das classes D e E o tem.  (Fonte e maiores informações: http://cetic.br/pesquisa/domicilios/indicadores).
 
-19/11/2015 – Visita do Thales Santos – Comunidade ou Favela – validação/desvalidação – como lidar com realidades desconhecidas¿ mais seguro fazer experiência para nós mesmos¿ 
-http://www.ustream.tv/channel/marielz
+Uno de los datos positivos que incluye el informe es que, entre 2006 y 2013, el porcentaje de usuarios sobre la población total más que se duplicó en la región, pasando del 20,7% en 2006 al 46,7% en 2013. Sin embargo, América Latina sigue muy por debajo de la media de los países de la OCDE, donde el 79% de la población es usuaria de Internet. (Fuente: http://repositorio.cepal.org/bitstream/handle/11362/38605/S1500568_es.pdf?sequence=1 )
 
-O que inovação cidadã e desenvolvimento local tem a ver com diversidade cultural¿
+Conforme os dados do Latinobarómetro de 2013, em torno de 40% da população residente nos países da América Latina já participaram de algum tipo de ação social local para lidar com questões de sua própria comunidade nos três últimos anos, tais como contactar uma autoridade local, um funcionário do governo, um meio de comunicação ou algum grupo da sociedade civil organizada.
 
-Discussão: O que queremos¿  
-Aproximar a população do governo¿  
-Garntir fluxo livre de informação e comunicação¿  
-Promover a inclusão digital para a participação social¿  
-Permitir participação em plataformas digitais para populações de áreas sem acesso à internet¿  
-Promover educação popular sobre participação¿  
-Oferecer um hardware com softwares para deliberações coletivas¿  
-
-Dia D para priorizarmos  
-Qual o nosso problema, por onde  começar¿ Qual nosso mínimo produto viável¿  
-O caixa mágica pode ser incluído para tudo, e vamos priorizar.  
-
-Votação  
-Canvas como modelo de negócio  
-Reunião  com mentores (Cintia, Vitor Grilo, Yago)  
-
-![Reunião  com mentores](../master/images/img12.jpg?raw=true)
-
-
-Domingo chegará Caio (SSA) – API do Noosfero  
-Para que serve a caixa¿  
-
-MVP – aproximação da população do governo embarcando o Dialoga.  
-Público como pessoas cheio de energia querendo mudar e melhorar o país mas que acabam batendo a cabeça tentando, desde brigando com os vizinhos por problemas de ação coletiva micros até brigando com o governo por não saber como colaborar.
-
-Um MVP mais específico para ser V em 10 dias.  
-
-Possibilidade de aproximar das políticas ao invés de aproximar das pessoas, uma vez que governo já é próximo das pessoas, porém pessoas não são próximas das políticas.
-
-Seria um repositório de informações¿ Um ponto de acesso entre comunidade e governabilidade¿ Uma ferramenta interna de uma comunidade¿ 
-
-Qual o objetivo¿ Garantir fluxo livre e autônomo de comunicação e/ou informação¿ Servidor, rede livre. Fluxo ou acervo ou os dois¿ Ou processamento de informações inseridas na caixa¿
-
-INFORMAR	     => ACERVO
-ENVOLVER             => FLUXO
-DESENVOLVER EMPATIA
-
-
-![Deliberação com o protótipo](../master/images/img13.jpg?raw=true)
-![Deliberação com o protótipo](../master/images/img14.jpg?raw=true)
-
-
-Deliberação com o protótipo
-
-
-![Priorizações de soluções](../master/images/img15.jpg?raw=true)
-
-
-Priorizações de soluções para problemas detectados. Classificação de 1 (menos importante) a 4 (mais importante).
-	
-Conversa com Sinergia
-
-Priorização determinada, resultado:
-
-![resultado da priorização de soluções](../master/images/img16.png?raw=true)
-
-![mvp definido](../master/images/img17.jpg?raw=true)
-
-MVP: Mecanismos que gera informação ordenada, estandardizada, capaz de sistematizar um processo participativo de uma comunidade.
-
-20/11/2015 - Erick fazendo testes no RaspberryPI com monitor. Falta teclado.
-
-![erik com raspbery](../master/images/img18.jpg?raw=true)
-
-
-Ana e Carlos trabalhando design.  
-Mariel e Thomaz reunindo material para relatórios.  
-Renato fazendo ontologia e programação  
-Figura com a conceitualização, feita anteriormente  
-
-![ontologia](../master/images/img19.png?raw=true)
-
-Metadados sobre a ontologia
-
-![ontologia2](../master/images/img20.png?raw=true)
-
-Todos os scripts, figuras, RDF, DOT estão disponíveis em https://github.com/ttm/caixamagica
-
-Reunião ao final do dia:  
-Priorizamos algo como o MVP  
-Ferramentas que podemos ter: processos de nós mesmos para chegarmos às perguntas:	
-
-TEMAS >>>> PROBLEMAS >>> OBJETIVOS >> DELIBERAÇÃO (votação, priorização) > SOLUÇÃO  
-Ideia é tirar objetivos, fazendo três etapas. Normalmente os espaços de participação não trabalham com negativas, e sim com questões como ‘o que você gostaria¿’. Nunca como: o que não quer¿  
-
-Confecção do processo mínimo da Caixa:  
-
-![mvp visual](../master/images/img21.jpg?raw=true)
-
-
-
-Reunião com todas suas ideias  
-
-Debate depois de dias: criar uma metodologia de mobilização cidadã, tomando elementos de gamification. Pensaram nos ativistas, nos cidadãos empoderados, pensando numa metodologia que se pensa a criação de um manual e um banco de ferramentas disponíveis de ativismo e mobilização cidadã. 
-
-Mariel: tudo muito próximo, com a diferença do aparato, que é a caixa. 
-Ideia de todas suas ideias: Percurso de todo o projeto apoiado com um banco de ferramentas e um banco de voluntários. Plataforma que registra informação, tema que importa, e se colocar a disposição para outros projetos, com suas capacidades. Identificar os momentos do projeto, de idealização, convocatória comunitária, negociação, desenho do projeto, discussão. Que tal se pensarem um pouco na dinâmica do povo¿ Repositório e incorporando desafios/retos para passar de cada etapa e se chegar ao reconhecimento. Busca de pessoas e expansão da rede. Visibilizar gente que participou a partir das capacidades multimídias. Na caixa mágica tem um dispositivo que se chega a um território e se casa com todas sus ideias. 
-
-Erick: não é tão difícil fazer uma plataforma tipo rede social para primeiras etapas com números limitados de usuários, não é difícil e se pode fazer esse tipo de experimentação. 
-Em outro núcleo de todas suas ideias: quando cidadãos entra em contato, processo se torna mais lento. Projeto acaba se tornando algo, banco de conhecimento dar material, dar exemplos práticos para resolver problema. 
-Plataforma pode ajudar a eleição de recursos, permitindo que ideias ampliadas tenha essa possibilidade de receber informação, recursos. 
-
-Poppi: a questão da mobilização... concurso da ideia de Cidades Democráticas em Brasil estão inventando uma prototipação das ideias mais importantes. O principal desafio desses processos segue sendo a mobilização. Plataformas utilizáveis, logins fáceis, porém pessoas não se engajam. O que fazem para resolver isso são as oficinas presenciais. Pessoas na mesma sala se conectam a uma plataforma, discutindo com ideias de design thinking. Quanto essa história, a complementariedade que podemos pensar é essa: a forma como estão divulgando se precisa de uma plataforma online, para fazer a mobilização é necessário ter uma estratégia territorial. 
-
-A prioridade não é que se utilize a plataforma por toda a comunidade, pois isso não será feito por todas as pessoas, mesmo que se incentive. A plataforma é somente uma ferramenta, um depositório que agregue as informações e que seja útil. 
-
-Um dos objetivos é fornecer ferramentas para que outras pessoas consigam engajar outras pessoas. A ideia do jogo é ir te dando ferramentas para se fazer isso. 
-
-Uma discussão inicial é utilizar as experiências das próprias pessoas do labic para alimentar essas ferramentas de estratégia.
-
-Pensarem em públicos específicos¿
-
-Basicamente cidadãos proativos que se sentem capazes de propor algo e que tenha acesso à internet. 
-Premissa: ou querer colaborar ou querer ter ideia. Instigar pessoa para perceber que pode propor coisas para uma cidade. 
-
-Outro ponto de confluência: instrumento muito básico e rápido para pessoas que não participam é incentivar a plataforma. A caixa mágica pode pensar gente que tem interesse de participar, de despertar algo.
-
-
-Tarefas distribuidas
-
-![Tarefas distribuidas](../master/images/img22.jpg?raw=true)
-
-
-Telas do queijatório -MVP
-
-![Telas do queijatório -MVP](../master/images/img23.jpg?raw=true)
-
-
-Reunião na casa nuvem
-
-![Reunião na casa nuvem](../master/images/img24.jpg?raw=true)
-
-
-
-
-Exemplos de eParticipação  
-http://www.mejoratuciudad.org/participacion-ciudadana-smart-city.html  
-http://www.100en1diacali.com/  
-http://dialoga.gov.br/  
-http://culturadigital.br/plataformascolaborativas/delibera-democracia-digital/  
-http://www.allourideas.org/  
-
+La tecnología permite incluir a la población, permite un desarrollo inclusivo. La consolidación de una comunidad participativa que detona un proceso que refuerza el tejido social.
+
+PRESENTACIÓN 23/11
+
+PROCESO DE CO CREACIÓN 
+Una idea, no un proyecto bien definido.
+Empezamos un  proceso de creación participativa
+Para definir nuestro problema, objetivo y producto. 
+Después de mucho diálogo, discusión y sobre todo confusión llegamos a la conclusión de que queríamos facilitar procesos participativos como el que nosotros mismos había elaborado en el desarrollo de nuestro proyecto. 
+Entonces decidimos atacar dos problemas de la participación.
+Existen herramientas de participación digital  que a veces resultan muy complejas de usar, lo cual muchas veces genera una barrera para participación en ellas. 
+All no existir herramientas que realicen estos procesos de la manera más simple y práctic, no se utilizan en procesos pequeños ni se generan datos ordenados sobre procesos participativos a pequeña escala
+
+
+QUÉ ES?
+¿Qué es la caja?
+Plataforma física y digital personalizable de hackeamento cívico, que contiene 2  herramientas que simplifican el proceso de diagnóstico y deliberación dentro de un ejercicio participativo de toma de decisiones. 
+Un  software
+Un objeto:
+
+¿Qué hace?
+Genera datos ordenados sobre procesos sociales de toma de decisiones. 
+Permiten facilitar procesos  servindo tanto como ferramenta para decisões dentro de pequenas comunidades quanto para reunir comunidades diversas em definições que afetam grandes territórios, como um país. A Caixa Mágica possibilita diferentes níveis participativos: informação, consultas, decisões conjuntas, atuações coletivas e empoderamento comunitário.
+Ejemplo
+
+DÓNDE ESTAMOS?
+Estamos generando nuestro Producto Mínimo Viable. 
+Por ello estamos en el proceso de diseño de la interfaz para que sea accesible y simple de utilizar para poder ser usada por todos los usarios. 
+Además nuestro equipo de geek esta generando la tecnología necesaria para que nuestro software pueda realizar todas nuestras funciones. 
+Finalmente estamos pensando en las miles de posibilidades y usos que nuestra caja puede tener. 
+Falar de nossa ida a Cuba para apresentar a caixa;
+Falar que todos podem acessar o board de trabalho da Caixa em: http://abre.ai/tarefascaixamagica
