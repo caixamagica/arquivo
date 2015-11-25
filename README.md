@@ -1,3 +1,6 @@
+![logo caixa magica](../master/images/logocaja.jpg?raw=true)
+
+
 #Caixa Mágica de Participação Social Swartz Manifesto
 
 ##Palavras-Chave (original)
@@ -13,6 +16,8 @@ A Caixa Mágica e uma plataforma física y digital personalizable de hackeamento
 La Caja es una puerta de entrada al universo de la participación ciudadana pois permite que as pessoas se conectem diretamente a um processo de participação concreto e imediato. No nosso protótipo, ativamos uma opção de participação que permite transformar queixas em propostas, pero essa é apenas uma das possíveis formas de configurar a plataforma.
 
 Más que una máquina, a caixa, es um legado de processos de participación social e inclusión digital para o empoderamento de los ciudadanos.
+
+**Quer ler o relato dos dias do projeto no LabicBR? Aqui** ../master/RELATO_diadia.md
 
 ##Problema
 
@@ -87,7 +92,7 @@ Muita gente não participa dos processos participativos.
 Como ampliar a participação e a interação cidadã?
 
 
-NOTAS SOLTAS
+#NOTAS SOLTAS
 
 Uma caixa de ferrramentas acessível que gera informações ordenadas e padronizadas sobre os processos participativos de uma comunidade, com um desenho acessível e simplificado. 
 Software + hardware
