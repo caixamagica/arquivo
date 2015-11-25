@@ -280,7 +280,7 @@ SSH no Raspberry via cabo crossover - ligamos o Raspberry ao laptop com Ubuntu c
 * configurar uma rede wifi Ad hoc no Raspberry;
 * configurar um portal captivo que será a porta de entrada da Caixa Mágica.
 
-![imagem do raspberry](../master/images/img25.jpg?raw=true)
+![imagem do raspberry](../master/images/img25.jpeg?raw=true)
 
 
 
