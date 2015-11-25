@@ -17,7 +17,7 @@ La Caja es una puerta de entrada al universo de la participación ciudadana pois
 
 Más que una máquina, a caixa, es um legado de processos de participación social e inclusión digital para o empoderamento de los ciudadanos.
 
-**Quer ler o relato dos dias do projeto no LabicBR? Aqui** ../master/RELATO_diadia.md
+**Quer ler o relato dos dias do projeto no LabicBR?** [Aqui](../master/RELATO_diadia.md)
 
 ##Problema
 
