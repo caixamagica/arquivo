@@ -266,8 +266,6 @@ Reunião na casa nuvem
 ![Reunião na casa nuvem](../master/images/img24.jpg?raw=true)
 
 
-
-
 Exemplos de eParticipação  
 http://www.mejoratuciudad.org/participacion-ciudadana-smart-city.html  
 http://www.100en1diacali.com/  
@@ -275,3 +273,64 @@ http://dialoga.gov.br/
 http://culturadigital.br/plataformascolaborativas/delibera-democracia-digital/  
 http://www.allourideas.org/  
 
+
+SSH no Raspberry via cabo crossover - ligamos o Raspberry ao laptop com Ubuntu com um cabo de rede. A máquina com Ubuntu compartilha a rede como um servidor DHCP. O Raspberry tem internet roteada pelo laptop. A partir de agora, é possivel usar o teclado do laptop para dar comandos ao Raspberry, e assim seguimos para os próximos passos:
+
+* instalar o pincho adaptador de WIFI;
+* configurar uma rede wifi Ad hoc no Raspberry;
+* configurar um portal captivo que será a porta de entrada da Caixa Mágica.
+
+
+Adaptador Alternativo - compramos novo adaptador, com outro driver. DLink DWA-131/E1. tentaremos seguir este tutorial: https://docs.google.com/document/d/16hJS7fnPyKUwbvR33_nMku_b6XcYaBJXVpeCIMoJzcQ/pub
+marielzasso commented 6 hours ago
+
+O adaptador Realtek 8188eu funciona! - geramos um pacote debian com o driver do pincho de rede e instalamos esse pacote no pincho de rede via conexão do cabo cross over do Raspberry. Com o comando dpkg -i nomedopacote
+
+O Raspberry por padrão pega um IP local, e não da rede. Precisamos instalar o DHCP e ver se rola.
+marielzasso commented 2 hours ago
+
+DHCP só funcionou com configuração manual - assim tivemos que escrever manualmente no arquivo de configuração das interfaces de rede o nome da rede e a senha.
+
+* Passo 1:
+
+Crie um arquivo em /etc/wpa.config com o seguinte conteúdo
+
+network={
+ssid="NomeDaRede"
+proto=RSN
+key_mgmt=WPA-PSK
+pairwise=CCMP TKIP
+group=CCMP TKIP
+psk="senhaDaRede"
+}
+
+* Passo 2:
+
+O arquivo já existente /etc/network/interfaces deve conter o seguinte conteúdo
+
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+auto eth0
+allow-hotplug eth0
+iface eth0 inet manual
+
+allow-hotplug wlan0
+auto wlan0
+
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa.config
+
+* Passo 3: reinicie a rede.
+
+/etc/init.d/networking restart
+
+Raspberry funcionando como roteador de wifi - seguimos este tutorial:
+
+http://raspberrypihq.com/how-to-turn-a-raspberry-pi-into-a-wifi-router/
+
+(Observação: a senha tem que ter 8 caracteres. )
+
+A internet, no nosso caso, está vindo de um laptop conectado numa rede via wifi. Poderia ser também diretamente conectado a uma rede cabeada. O objetivo, porém, é criar uma rede AD HOC, o roteador de internet é um "bônus". Então vamos ao próximo passo.
